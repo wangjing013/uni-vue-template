@@ -52,18 +52,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 |  |   |   └index.vue
 |  |   ├─course
 |  |   |   └course.vue
+|  ├─store  // 接口
+|  |  ├─modules
+|  |  └index.js
 |  ├─api  // 接口
 |  |  ├─README.md
 |  |  └common.js
 ├─public // 模版
 |   └index.html
 ```
-
-
-## Eslint Globals
-
-https://www.emmanuelgautier.com/blog/eslint-global-variables
-
 
 ## 3. 使用组件库
 
@@ -76,7 +73,8 @@ https://www.emmanuelgautier.com/blog/eslint-global-variables
 ## 4. 请求库
 
 请求库使用 ``uni`` 自带的 [uni.request](https://uniapp.dcloud.io/api/request/request)。
-## 5. 代码规范
+
+## 5. Git 代码规范
 
 [Git Commit message](https://gitee.com/help/articles/4231#article-header0)
 
@@ -147,13 +145,13 @@ page {
 
 [对应关系](https://www.npmjs.com/package/node-sass)
 
+## ESLint
 
-
-## ESLint alias
+* ESLint alias
 
 https://www.npmjs.com/package/eslint-import-resolver-webpack
 https://stackoverflow.com/questions/47863102/eslint-error-showing-with-webpack-alias
 
-## ESLint Global Variables
+* ESLint Global Variables
 
 https://www.emmanuelgautier.com/blog/eslint-global-variables
