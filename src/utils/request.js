@@ -41,6 +41,7 @@ const request = (params) => {
               icon: 'none',
             });
             uni.clearStorageSync();
+            // toLogin
           }
           resolve(resData);
         },

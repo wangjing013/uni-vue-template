@@ -19,9 +19,6 @@ const store = new Vuex.Store({
     userInfo: null,
     systemInfo: null,
   },
-  actions: {
-
-  },
   mutations: {
     SET_TOKEN(state, token) {
       state.token = token;
@@ -31,12 +28,6 @@ const store = new Vuex.Store({
     },
     SET_SYSTEMINFO(state, systemInfo) {
       state.systemInfo = systemInfo;
-    },
-    SET_SHARECODEURL(state, shareCodeUrl) {
-      state.shareCodeUrl = shareCodeUrl;
-    },
-    SET_COURSEINFO(state, courseInfo) {
-      state.courseInfo = courseInfo;
     },
   },
 });
