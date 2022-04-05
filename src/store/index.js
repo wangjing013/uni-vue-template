@@ -18,8 +18,6 @@ const store = new Vuex.Store({
     token: '',
     userInfo: null,
     systemInfo: null,
-    shareCodeUrl: '',
-    courseInfo: null,
   },
   actions: {
 

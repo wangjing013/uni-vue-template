@@ -72,7 +72,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 4. 请求库
 
-请求库使用 ``uni`` 自带的 [uni.request](https://uniapp.dcloud.io/api/request/request)。
+请求库使用 ``uniapp`` 自带的 [uni.request](https://uniapp.dcloud.io/api/request/request)。
 
 ## 5. Git 代码规范
 
