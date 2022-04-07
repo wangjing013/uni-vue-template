@@ -21,6 +21,7 @@ module.exports = {
   globals: {
     uni: true,
     app: true,
+    ROUTES: true,
   },
   settings: {
     'import/resolver': {

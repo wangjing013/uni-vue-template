@@ -75,6 +75,8 @@
     "flyio": "^0.6.2",
     "lodash-es": "^4.17.21",
     "regenerator-runtime": "^0.12.1",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.7",
     "uuid": "^8.3.2",
     "uview-ui": "^2.0.29",
     "vue": "^2.6.11",

@@ -5,6 +5,14 @@
       "@dcloudio/types",
       "miniprogram-api-typings",
       "mini-types"
-    ]
+    ],
+    "paths": {
+      "components/*": [
+        "./src/components"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+    }
   }
 }
